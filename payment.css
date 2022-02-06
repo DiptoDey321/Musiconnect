@@ -1,0 +1,32 @@
+body{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(oR2nWH2kSlN9eIja6yotLHTco1p6xejpA6XHZji4.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -0px; 
+
+}
+
+.login-box{
+	max-width: 700px;
+	float: none;
+	margin: 150px auto;
+    margin-left: 250px;
+  
+}
+
+.login-left{
+	background: rgba(211,211,211,0.5);
+	padding: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.login-right{
+	background: #fff;
+	padding: 30px;
+    border-radius: 10px;
+}
+
+.form-control{
+	background: transparent !important;
+}

@@ -1,0 +1,21 @@
+.status_bar{
+    font-size: 30px;
+    font-weight: bold;
+    color: #405d9b;
+}
+
+.status{
+    font-size: 16px;
+}
+
+#post{
+    padding: 10px;
+    border: rgba(10, 63, 98, 0.308) 3px solid;
+    border-radius: 20px;
+    background-color: rgba(147, 246, 231, 0.123); 
+    box-shadow: 0 5px 5px rgba(0, 24, 236, 0.287);
+}
+
+.posttext{
+    font-size: 20px;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+
+}
+ body{
+     height: 100vh;
+     width: 100vh;
+ }
+ .container{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform:  translate(-50%,-50%);
+ }
+ .container{
+     
+     background: linen;
+     width: 410px;
+     padding: 30px;
+     box-shadow: 0 0 8px rgba(0,0,0, 0.1);
+ }
+ .container .text{
+     font-size: 35px;
+     font-weight: 600px;
+     text-align: center;
+ }
+ .container form{
+     margin-top: 50px;
+ }
+ .container form .data{
+     height: 30px;
+     padding: 30px;
+     width: 100%;
+     margin:40px,0;
+ }
+ form .data input{
+     height :100%;
+
+     width: 100%;
+     padding: 10px;
+     font-size: 17px;
+     border: 1px solid lightseagreen;
+    }
+    form .data label{
+        font-size: 18px;
+    }
+    form .btn{
+        margin: 30px 0;
+        height: 45px;
+        width:100%;
+        position: relative;
+        overflow: hidden;
+    }
+    form .btn inner{
+        height:100%;
+        width: 300%;
+        position: absolute;
+        left:-100%;
+        z-index: -1;
+        background: lightslategray;
+
+
+    }
+ form .btn  button{
+     height:100%;
+     width:100%;
+     background: none;
+     border:none;
+     color:rgb(194, 26, 26);
+     font-size: 18px;
+     font-weight: 500;
+     text-transform: uppercase;
+ }
+
+ .show-btn{
+     background: lightslategray;
+     padding:10px,20px;
+     font-size: 20px;
+     font-weight: 500;
+     cursor: pointer;
+ }
+ .show-btn, .container{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+ }
+ #show:checked ~.container{
+     display: block;
+ }
+ .container .close-btn{
+     position: absolute;
+     right:20px;
+     top: 15px;
+ }
+ input[type="checkbox"]{
+     display: none;
+ }
